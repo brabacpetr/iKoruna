@@ -105,4 +105,14 @@ table.partners{width:100%;}table.partners td,table.partners th{text-align:left;b
 .content-white table td.icons{width:73px;vertical-align:middle;}.content-white table td.icons .nfc{background:url("../images/homepage_icons_sprite.png") 0 0 no-repeat;height:73px;width:58px;display:block;background-position:0 0;}
 .content-white table td.icons .ecash{background:url("../images/homepage_icons_sprite.png") 0 0 no-repeat;height:73px;width:58px;display:block;background-position:-58px 0;}
 .content-white table td.icons .mobile{background:url("../images/homepage_icons_sprite.png") 0 0 no-repeat;height:73px;width:58px;display:block;background-position:-116px 0;}
+.content-white.what-is-ikoruna h3.center{text-align:center;padding:0 180px;font-style:italic;margin-bottom:50px;float:none;}
+.content-white.what-is-ikoruna h3.w65{width:65%;}
+.content-white.what-is-ikoruna hr.text{margin-top:0px;}
+.content-white.what-is-ikoruna .pad20{padding:0 20px;}
+.content-white.what-is-ikoruna table.phones td{border:0px;}.content-white.what-is-ikoruna table.phones td .stripe{background:url("../images/wallet_logo_pc.png") 0 0 no-repeat;height:245px;display:block;}
+.content-white.what-is-ikoruna table.phones td .double{background:url("../images/wallet_logo_pc.png") 0 0 no-repeat;height:245px;display:block;width:362px;}
+.content-white.what-is-ikoruna table.phones td .discount{background:url("../images/wallet_logo_pc.png") 0 0 no-repeat;height:245px;display:block;background-position:-362px 0;width:276px;}
+.content-white.what-is-ikoruna table.phones td .protected{background:url("../images/wallet_logo_pc.png") 0 0 no-repeat;height:245px;display:block;background-position:-638px 0;width:368px;}
+.content-white.what-is-ikoruna table.services{table-layout:fixed;}.content-white.what-is-ikoruna table.services td{padding:0 40px;border:0px;}.content-white.what-is-ikoruna table.services td a{color:#333333;}
+.content-white.what-is-ikoruna table.services td h4{color:#000000;margin-bottom:20px;}
 .arrow a{padding:0 15px 0 25px;display:block;}
