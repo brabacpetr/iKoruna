@@ -1,0 +1,78 @@
+/*
+ * Languages select box style
+ *
+ */
+.jquery-selectbox {
+    margin-top: 5px;
+	position: relative;
+	height: 20px;
+	width: 100px;
+	z-index: 1000;
+	display: block;
+	font-size: 11px;
+	color: black;
+	padding: 1px 0 5px 0;
+    background-color: #edf6f8;
+    border: 1px solid #d6ebf0;
+    cursor: pointer;
+    border: 1px solid #aacee4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.jquery-selectbox .jquery-selectbox-currentItem {
+    line-height: 20px;
+    padding-left: 24px;
+    font-size: 12px;
+    float:left;
+    width: 63px;
+    cursor: pointer;
+}
+
+.jquery-selectbox .jquery-selectbox-list {
+	display: none;
+	position: absolute;
+	top: 20px;
+	padding: 7px 0 7px 0;
+	left: -1px;
+	background: #edf6f8;
+	width: 100px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 1000;
+    font-weight: normal;
+    border-top: none;
+    color: black;
+    border: 1px solid #aacee4;
+}
+.jquery-selectbox .jquery-selectbox-moreButton {
+    margin-top: 5px;
+    margin-right: 3px;
+	float: right;
+	width: 10px;
+	height: 20px;
+	cursor: pointer;
+    background: transparent url(../images/arrow_down.png) 0 0 no-repeat;
+}
+.jquery-selectbox .jquery-selectbox-moreButton.morebuttonhover {
+
+}
+
+.jquery-selectbox .jquery-selectbox-item.listelementhover {
+	background-color: #1086c8;
+	color: #eee;
+}
+.jquery-selectbox .jquery-selectbox-item {
+	display: block;
+	cursor: default;
+    line-height: 20px;
+    padding-left: 24px;
+    font-size: 1.1em;
+}
+
+/*
+ * Language specific
+ *
+ */
+.jquery-selectbox span.cz,span.value-cz{background: url(../images/flags/cz.gif) 3px 5px no-repeat;}
+.jquery-selectbox span.en,span.value-en{background: url(../images/flags/en.gif) 3px 5px no-repeat;}
