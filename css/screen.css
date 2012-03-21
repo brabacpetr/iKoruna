@@ -49,7 +49,7 @@ nav.top a.last:hover span{background-position:0 -400px;}
 nav.top a.last.active span{background-position:0 -200px;}
 .col{float:left;}
 .col_1{width:100%;}
-.col_3{width:33%;}
+.col_3{width:30%;}
 .col_2{width:50%;}.col_2.fixed{width:655px;}
 .clear{clear:both;display:block;height:0.0001px;}
 .right{float:right;}
@@ -82,6 +82,9 @@ nav.top a.last.active span{background-position:0 -200px;}
 .button.submit.green .left{background-position:0 -318px;height:31px;}
 .button.submit.green .text{background-position:0 -349px;font-size:15px;font-weight:bold;line-height:30px;height:31px;padding:0 10px;}
 .button.submit.green .right{background-position:0 -136px;height:31px;width:30px;padding:0px;}
+.button.submit.red{height:32px;}.button.submit.red .left{height:32px;background-position:0 -518px;}
+.button.submit.red .text{background-position:0 -550px;font-size:15px;font-weight:bold;line-height:30px;padding:0 10px;height:32px;}
+.button.submit.red .right{background:transparent url("../images/icons_sprite.png") -36px -135px no-repeat;width:30px;height:32px;}
 .button.submit.green-big .right{background:transparent url("../images/icons_sprite.png") 0 -167px no-repeat;width:48px;height:46px;}
 .white-box{width:100%;background:#f0f8fb;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.white-box .pad20{padding:20px 10px 10px 10px;}
 .white-box .currency{width:100%;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;font-weight:normal;line-height:25px;margin:0 0 15px 0;}.white-box .currency td{text-align:left;border-bottom:1px dotted #bfbfbf;}.white-box .currency td.desc{width:130px;}
@@ -98,6 +101,16 @@ table.operations td a.buy-money-for-games span{float:none;background:transparent
 table.operations td a.buy-money-for-games:hover span{background:transparent url("../images/icon_buy_money_for_games_over.png") 0 0 no-repeat;}
 table.operations td a.buy-or-recharge span{float:none;background:transparent url("../images/icon_buy_or_recharge.png") 0 0 no-repeat;width:71px;height:46px;margin:0 0 10px 10px;}
 table.operations td a.buy-or-recharge:hover span{background:transparent url("../images/icon_buy_or_recharge_over.png") 0 0 no-repeat;}
+.light-gray-box{width:100%;display:block;border:1px solid #e1e1e1;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.5);-moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.5);box-shadow:0px 1px 2px rgba(0, 0, 0, 0.5);margin:0 0 40px 0;}.light-gray-box .header{padding:15px;border-bottom:1px solid #e1e1e1;background-color:#f8f8f8;color:#000000;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-webkit-border-bottom-left-radius:0px;-moz-border-radius-bottomleft:0px;border-bottom-left-radius:0px;-webkit-border-bottom-right-radius:0px;-moz-border-radius-bottomright:0px;border-bottom-right-radius:0px;}.light-gray-box .header h3{font-family:Aller,sans-serif;font-size:20px;font-weight:bold;line-height:20px;margin:0;}
+.light-gray-box .content{padding:0 15px;color:#000000;}.light-gray-box .content .block{padding:25px 0;border-bottom:1px solid #e1e1e1;}.light-gray-box .content .block.last{border-bottom:0px;}
+.light-gray-box .content .block.sms .right{width:60%;}
+.light-gray-box .content .block.personal-info .image-bottom{margin-top:-1px;border:1px solid #e1e1e1;border-top:0px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-border-top-left-radius:0px;-moz-border-radius-topleft:0px;border-top-left-radius:0px;-webkit-border-top-right-radius:0px;-moz-border-radius-topright:0px;border-top-right-radius:0px;padding:4px 0;text-align:center;}
+.light-gray-box .content .block p{margin:0px;color:#333333;font-size:12px;font-weight:normal;line-height:16px;}
+.light-gray-box .content .block form label{width:70px;float:left;display:block;line-height:30px;}
+.light-gray-box .content .block form input[type=text],.light-gray-box .content .block form input[type=password]{width:130px;border:1px solid #999999;background-color:#f7f7f7;background-image:-moz-linear-gradient(top, #f3f3f3, #fefefe);background-image:-ms-linear-gradient(top, #f3f3f3, #fefefe);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#f3f3f3), to(#fefefe));background-image:-webkit-linear-gradient(top, #f3f3f3, #fefefe);background-image:-o-linear-gradient(top, #f3f3f3, #fefefe);background-image:linear-gradient(top, #f3f3f3, #fefefe);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#fefefe', GradientType=0);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font-size:18px;font-weight:normal;line-height:18px;padding:4px 15px;}
+.light-gray-box .content .block table td{border-bottom:1px solid #e9e9e9;padding:5px 10px !important;font-size:12px;font-weight:normal;line-height:16px;color:#333333;}
+.light-gray-box .content .block span.label{width:100px;display:block;float:left;}
+.light-gray-box .content .block span.date{color:#999999;}
 table.partners{width:100%;}table.partners td,table.partners th{text-align:left;border:0px;}table.partners td a,table.partners th a{font-weight:normal;}
 .content-blue .triangle-up-big{margin:-17px 0 0 20px;}
 .content-blue .col_2{padding:30px 0 0 0;width:52%;}.content-blue .col_2 h3{font-size:30px;font-style:italic;font-weight:bold;margin-bottom:15px;}
@@ -135,4 +148,10 @@ table.partners{width:100%;}table.partners td,table.partners th{text-align:left;b
 .content-white.registration .col_2.form{width:70%;}
 .content-white.registration a.more{margin:0 0 0 10px;font-size:14px;}
 .content-white.registration a.conditions-link{color:#cd1324;}
+.content-white.profile{position:relative;}.content-white.profile .tab-controls{position:absolute;top:0px;width:920px;}
+.content-white.profile ul.tabs{float:left;margin:16px 0 0 0;}.content-white.profile ul.tabs li{padding:10px 20px 15px 20px;font-size:18px;font-weight:normal;line-height:18px;list-style-type:none;display:inline-block;*display:inline;*zoom:1;}.content-white.profile ul.tabs li a{color:#cd1324;}
+.content-white.profile ul.tabs li.active{border:1px solid #e9e9e9;border-bottom:1px solid #ffffff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-border-bottom-left-radius:0px;-moz-border-radius-bottomleft:0px;border-bottom-left-radius:0px;-webkit-border-bottom-right-radius:0px;-moz-border-radius-bottomright:0px;border-bottom-right-radius:0px;background-color:#ffffff;}.content-white.profile ul.tabs li.active a{color:#000000;text-decoration:none;}
+.content-white.profile .signout{margin:20px 0 0 0;}
+.content-white.profile .background{margin-top:15px;}
+.content-white.profile .col_3{margin-right:45px;}.content-white.profile .col_3.last{margin:0px;}
 .arrow a{padding:0 15px 0 25px;display:block;}
