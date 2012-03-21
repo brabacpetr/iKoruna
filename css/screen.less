@@ -168,11 +168,13 @@ input[type=text], input[type=password], select, textarea {
         &.bold {
             #fonts > .shorthand(20px, normal, 20px);
         }
+    }
 
-        &.error {
-            color: @menu-border-red;
-            border-color: @menu-border-red;
-        }
+    &.error {
+        color: @menu-border-red;
+        border-color: @menu-border-red !important;
+        background-color: #f5e2e4 !important;
+        background-image: none !important;
     }
 
     &:focus {
@@ -545,6 +547,11 @@ nav.top {
         width: 7px;
         height: 13px;
     }
+    &.triangle-down {
+        background-position: -55px -20px;
+        width: 14px;
+        height: 8px;
+    }
 
     &.facebook {
         background: transparent url("../images/social_sprite_1.png") 0px 0 no-repeat;
@@ -623,6 +630,23 @@ nav.top {
         }
     }
 
+    &.green-big {
+        .left {
+            background-position: 0 -380px;
+            height: 46px;
+        }        
+
+        .text {
+            background-position: 0 -426px;
+            height: 46px;
+        }
+
+        .right {
+            background-position: 0 -472px;
+            height: 46px;
+        }
+    }
+
     &.submit {
         .right {
              background: transparent url("../images/icons_sprite.png") 0 -12px no-repeat;
@@ -656,6 +680,14 @@ nav.top {
                 height: 31px;
                 width: 30px;
                 padding: 0px;
+            }
+        }
+
+        &.green-big {
+            .right {
+                background: transparent url("../images/icons_sprite.png") 0 -167px no-repeat;
+                width: 48px;
+                height: 46px;
             }
         }
     }
@@ -1011,6 +1043,77 @@ table.partners {
         width: 164px;
         height: 182px;
         margin-top: 30px;
+    }
+}
+
+/* 5.4. Registration */
+.content-white.registration {
+    .row {
+        margin: 10px 0;
+
+        &.conditions {
+            padding: 0 0 0 150px;
+            font-size: 14px;
+        }
+    }
+
+    .error-box {
+        margin: 20px 0;
+        width: 350px;
+        display: block;
+        position: relative;
+        border: 1px solid @menu-border-red;
+        .border-radius(8px);
+        background-color: #f5e2e4;
+        padding: 20px;
+        #fonts > .shorthand(16px, normal, 16px);
+        color: @menu-border-red;
+
+        .triangle-down {
+            position: absolute;
+            bottom: -8px;
+            left: 20px;
+        }
+    }
+
+    label {
+        width: 150px;
+        display: block;
+        float: left;
+        line-height: 38px;
+        color: @text-gray;
+
+        &.error {
+            color: @menu-border-red;
+        }
+    }
+
+    input[type=text], input[type=password] {
+        .border-radius(4px);
+        width: 213px;
+        padding: 8px 15px;
+        border: 1px solid @footer-dark-gray;
+        .gradient-vertical(#f3f3f3, #fefefe);
+        #fonts > .shorthand(18px, normal, 18px);
+    }
+
+    .col_2 {
+        &.image {
+            width: 30%;
+        }
+
+        &.form {
+            width: 70%;
+        }
+    }
+
+    a.more {
+        margin: 0 0 0 10px;
+        font-size: 14px;
+    }
+
+    a.conditions-link {
+        color: @menu-border-red;
     }
 }
 
