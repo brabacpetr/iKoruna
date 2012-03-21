@@ -19,6 +19,7 @@
 @tab-border-gray: #e9e9e9;
 @light-box-gray: #e1e1e1;
 @light-box-heading-gray: #f8f8f8;
+@table-heading-blue: #bddeee;
 
 /* 2. Global Styles */
 body {
@@ -580,6 +581,11 @@ nav.top {
         float: none;
         width: 40px;
         height: 42px;
+    }
+    &.calendar {
+        background-position: -52px -28px;
+        width: 19px;
+        height: 21px;
     }
 }
 
@@ -1226,10 +1232,10 @@ table.partners {
     }
 
     input[type=text], input[type=password] {
-        .border-radius(4px);
         width: 213px;
         padding: 8px 15px;
         border: 1px solid @footer-dark-gray;
+        .border-radius(4px);
         .gradient-vertical(#f3f3f3, #fefefe);
         #fonts > .shorthand(18px, normal, 18px);
     }
@@ -1312,6 +1318,103 @@ table.partners {
 
         &.last {
             margin: 0px;
+        }
+    }
+}
+
+/* 5.6. Payment history*/
+.content-white.payment-history {
+    .filters {
+        margin: 0 0 20px 0;
+
+        .border() {
+            border: 1px solid @footer-dark-gray;
+            .border-radius(4px);
+            .gradient-vertical(#f3f3f3, #fefefe);
+        }
+
+        h3 {
+            float: left;
+            #fonts > .shorthand(20px, bold, 30px);
+            margin: 0 0 0 20px;
+        }
+
+        label {
+            line-height: 30px;
+            float: left;
+            margin: 0 10px 0 0;
+        }
+
+        input[type=text], input[type=password] {
+            float: left;
+            width: 85px;
+            padding: 4px 30px 4px 15px;
+            margin: 0;
+            .border();
+
+            #fonts > .shorthand(14px, normal, 16px);
+        }
+
+        .calendar {
+            position: relative;
+            left: -25px;
+            top: 3px;
+        }
+
+        select {
+            float: left;
+            width: auto;
+            padding: 2px 15px;
+            height: 31px;
+            margin: 0 20px 0 0;
+            .border();
+
+            #fonts > .shorthand(14px, normal, 16px);
+        }
+
+        a {
+            float: left;
+
+            &.red {
+                margin-left: 10px;
+            }
+
+            &.cancel {
+                margin: 8px 0 0 15px;
+            }
+        }
+    }
+
+    table {
+        table-layout: auto;
+
+        thead {
+            th {
+
+                background: @table-heading-blue;
+                color: @black;
+                #fonts > .shorthand(14px, bold, 18px);
+                border-right: 1px ridge #a8d3e8;
+
+                &.first {
+                    -webkit-border-top-left-radius: 4px;
+                    -moz-border-radius-topleft: 4px;
+                    border-top-left-radius: 4px;
+                }
+
+                &.last {
+                    -webkit-border-top-right-radius: 4px;
+                    -moz-border-radius-topright: 4px;
+                    border-top-right-radius: 4px;
+                    border-right: 0px;
+                }
+            }
+        }
+
+        tbody {
+            td {
+                padding: 15px !important;
+            }
         }
     }
 }
