@@ -117,4 +117,9 @@ table.partners{width:100%;}table.partners td,table.partners th{text-align:left;b
 .content-white.what-is-ikoruna table.phones td .protected{background:url("../images/wallet_logo_pc.png") 0 0 no-repeat;height:245px;display:block;background-position:-638px 0;width:368px;}
 .content-white.what-is-ikoruna table.services{table-layout:fixed;}.content-white.what-is-ikoruna table.services td{padding:0 40px;border:0px;}.content-white.what-is-ikoruna table.services td a{color:#333333;display:block;text-decoration:none;margin:10px 0;}
 .content-white.what-is-ikoruna table.services td h4{color:#000000;margin-bottom:20px;}
+.content-white.how-it-works .italic{font-style:italic;}
+.content-white.how-it-works .text-heading{width:271px;}.content-white.how-it-works .text-heading h3{margin-top:70px;font-size:30px;font-weight:bold;line-height:30px;}
+.content-white.how-it-works .text-heading h4{margin-top:20px;color:#333333;}
+.content-white.how-it-works .phone-wifi{background:url("../images/how_it_works_phone.png") 0 0 no-repeat;width:436px;height:333px;margin-top:30px;}
+.content-white.how-it-works .logo-text{padding:150px 0 0 0;background:url("../images/how_it_works_phone.png") -436px 0 no-repeat;width:164px;height:182px;margin-top:30px;}
 .arrow a{padding:0 15px 0 25px;display:block;}
