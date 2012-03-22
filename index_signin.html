@@ -28,11 +28,12 @@
     -->
 </head>
 <body>
+
     <div style="position: relative;">
         <img src="images/top_blue_background.jpg" alt="" style="width: 100%; height: 100%; position: absolute;"/>
 
         <div class="container" style="position: relative;">
-            <header class="main">
+            <header class="main signed">
                 <a href="index.html" class="logo left">
                     <img src="images/logo.png" alt="e-cash converter">
                     <strong>iKoruna</strong>
@@ -51,17 +52,40 @@
 
                     <div class="clear"></div>
 
-                    <div class="profile-block">
-                        <div class="left">
-                            <img src="tmp/profile_image.png" alt="">
-                        </div>
+                    <div class="login active">
+                        <a href="#" class="button green submit active">
+                            <span class="left"></span>
+                            <span class="text">Sign in</span>
+                            <span class="right"></span>
+                        </a>
+                    </div>
 
-                        <div class="right">
-                            <strong>František Nováček</strong><br>
-                            <a href="#" class="red">Zobrazit účet</a>
-                        </div>
-
-                        <div class="clear"></div>
+                    <div class="login-form">
+                        <form action="" method="post">
+                            <div class="row">
+                                <label>Jméno:</label><br>
+                                <input type="text" name="" value="">
+                            </div>
+                            <div class="row">
+                                <label>Heslo:</label><br>
+                                <input type="password" name="" value="">
+                                <a href="#" class="forgotten-password">Zapomenuté heslo</a>
+                            </div>
+                            <div class="row">
+                                <img src="tmp/captcha.png" alt="">
+                            </div>
+                            <div class="row">
+                                <label>Kód z obrázku</label><br>
+                                <input type="text" name="" value="">
+                            </div>
+                            <div class="row">
+                                <a href="#" class="button submit green-big">
+                                    <span class="left"></span>
+                                    <span class="text">Přihlásit</span>
+                                    <span class="right"></span>
+                                </a>
+                            </div>
+                        </form>
                     </div>
                 </div>
 
@@ -69,7 +93,7 @@
             </header>
 
             <nav class="top">
-                <a href="#" class="first">
+                <a href="#" class="first active">
                     <span></span>
                     Home
                 </a>
@@ -85,66 +109,63 @@
 
             <div class="content-blue">
                 <div class="pad20">
-                    <h1>František Nováček</h1>
-                </div>
+                    <div class="col_2 fixed col">
+                        <div class="left">
+                            <h3>For customers</h3>
+                            <h5>iKoruna wallet</h5>
+                            <a href="#" class="red">
+                                Advantages >
+                            </a>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="#" class="button submit">
+                                <span class="left"></span>
+                                <span class="text">Get iKoruna<br>wallet</span>
+                                <span class="right"></span>
+                            </a>
+                        </div>
+                        <div class="left">
+                            <img src="images/hp_wallet_big.png" alt="">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
 
-                <span class="icon triangle-up-big"></span>  
-            </div>
-        </div>
-    </div>
-
-    <div class="content-white profile">
-        <hr class="text background">
-        <div class="container">
-            <div class="pad20">
-                <div class="tab-controls">
-                    <ul class="tabs">
-                        <li class="active"><a href="#">My iKoruna</a></li>
-                        <li><a href="#">Profil</a></li>
-                        <li><a href="#">Moje čipové karty</a></li>
-                        <li><a href="#">Historie plateb</a></li>
-                    </ul>
-
-                    <div class="right signout">
-                        <a href="#" class="button submit green">
-                            <span class="left"></span>
-                            <span class="text">Odhlásit</span>
-                            <span class="right"></span>
-                        </a>
+                    <div class="col_2 last col">
+                        <div class="left">
+                            <h3>For merchants</h3>
+                            <h5>Bussiness account</h5>
+                            <a href="#" class="red">
+                                Advantages >
+                            </a>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="#" class="button submit">
+                                <span class="left"></span>
+                                <span class="text">Get bussiness<br>account</span>
+                                <span class="right"></span>
+                            </a>
+                        </div>
+                        <div class="left">
+                            <img src="images/hp_phone_big.png" alt="">
+                        </div>
+                        <div class="clear"></div>
                     </div>
 
                     <div class="clear"></div>
                 </div>
 
-                <div class="col_3 col">
-                    <div class="light-gray-box">
-                        <div class="header">
-                            <h3>Moje karty</h3>
-                        </div>
-                        <div class="content">
-                            <div class="block">
-                                <span class="label">Serial:</span> <strong>730476583937</strong><br><br>
-                                <span class="label">Amount:</span> <strong>0 CZK</strong>
-                            </div>
-                            <div class="block last">
-                                <a href="#" class="button submit red">
-                                    <span class="left"></span>
-                                    <span class="text">Výběr</span>
-                                    <span class="right"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="clear"></div>
             </div>
         </div>
+    </div>
 
-        <hr class="text">
-
+    <div class="content-white">
         <div class="container">
             <div class="pad20">
+                <h3>Other operations</h3>
                 <table>
                     <tr>
                         <td class="icons">
@@ -187,11 +208,7 @@
                     </tr>
                 </table>
                 <br><br>
-            </div>
-        </div>
 
-        <div class="container padding-bottom">
-            <div class="pad20">
                 <table class="partners">
                     <tr>
                         <th><a href="#">Our partners</a></th>
@@ -286,5 +303,6 @@
             </div>
         </div>
     </div>
+    <div class="canvas"></div>
 </body>
 </html>
