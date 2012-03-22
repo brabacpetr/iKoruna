@@ -369,6 +369,9 @@ header.main {
     }
 
     .profile-block {
+        position: absolute;
+        right: 14px;
+        top: 35px;
         background-color: @white;
         .border-radius(4px);
         padding: 5px 10px;
@@ -447,7 +450,7 @@ header.main {
     .right {
 
         form {
-            float: left;
+            float: none;
             margin: 0 0 20px 0;
 
             label {
@@ -461,15 +464,10 @@ header.main {
         }
 
         .jquery-selectbox {
-            right: 10px;
+            right: 14px;
+            width: 108px;
+            padding: 1px 0 1px 0;
         }
-    }
-
-    &.signed {
-        .jquery-selectbox {
-            top: 45px;
-            right: 280px;
-        }   
     }
 }
 
