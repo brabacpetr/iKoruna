@@ -240,7 +240,7 @@ textarea {
     padding: 0 20px 20px 20px;
 }
 .content-white {
-    border-top: 1px solid #5cb1d2;
+    
     background: @white;
     width: 100%;
     min-height: 300px;
@@ -339,6 +339,16 @@ textarea {
 header.main {
     padding: 0 0px 10px 0;
     position: relative;
+
+    &.signed {
+        .profile-block {
+            right: 0px;
+        }
+
+        .jquery-selectbox {
+            right: 0px !important;
+        }
+    }
 
     .logo {
         margin: 10px 0 0 0;
@@ -1391,7 +1401,7 @@ table.partners {
 
     ul.tabs {
         float: left;
-        margin: 16px 0 0 0;
+        margin: 1px 0 0 0;
 
         li {
             padding: 10px 20px 15px 20px;
@@ -1425,7 +1435,7 @@ table.partners {
     }
 
     .signout {
-        margin: 20px 0 0 0;
+        margin: 5px 0 0 0;
     }
 
     .background {
