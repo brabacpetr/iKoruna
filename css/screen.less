@@ -337,7 +337,7 @@ textarea {
 }
 
 header.main {
-    padding: 0 20px 10px 0;
+    padding: 0 0px 10px 0;
     position: relative;
 
     .logo {
@@ -368,6 +368,16 @@ header.main {
         }
     }
 
+    .profile-block {
+        background-color: @white;
+        .border-radius(4px);
+        padding: 5px 10px;
+
+        .left {
+            margin: 0 10px 0 0;
+        }
+    }
+
     .right {
 
         form {
@@ -383,6 +393,13 @@ header.main {
         img {
             float: right;
         }
+    }
+
+    &.signed {
+        .jquery-selectbox {
+            top: 55px;
+            right: 180px;
+        }   
     }
 }
 

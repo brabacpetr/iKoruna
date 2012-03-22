@@ -34,11 +34,13 @@ textarea{height:83px;resize:none;}
 #footer .last a.left.last{margin:0;}
 #footer .copy{color:#666666;width:75%;}
 #footer .c{color:#666666;}
-header.main{padding:0 20px 10px 0;position:relative;}header.main .logo{margin:10px 0 0 0;display:block;width:220px;text-decoration:none;}header.main .logo img{margin:0 9px 0 0;}
+header.main{padding:0 0px 10px 0;position:relative;}header.main .logo{margin:10px 0 0 0;display:block;width:220px;text-decoration:none;}header.main .logo img{margin:0 9px 0 0;}
 header.main .logo strong{font-family:Aller,sans-serif;font-size:250%;font-weight:normal;line-height:30px;font-style:italic;color:#000000;position:absolute;top:35px;left:85px;}
 header.main .logo span{font-size:8px;position:absolute;top:60px;left:100px;}
+header.main .profile-block{background-color:#ffffff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:5px 10px;}header.main .profile-block .left{margin:0 10px 0 0;}
 header.main .right form{float:left;margin:0 0 20px 0;}header.main .right form label{color:#666666;font-size:11px;}
 header.main .right img{float:right;}
+header.main.signed .jquery-selectbox{top:55px;right:180px;}
 nav.top{width:100%;display:table;border-bottom:5px solid #cd1324;}nav.top a{background:transparent url("../images/menu_stripe.png");height:50px;display:block;height:20px;display:table-cell;padding:15px 0 0 0;background-position:0 -150px;background-repeat:repeat-x;text-align:center;font-family:Aller,sans-serif;font-size:18px;font-weight:normal;line-height:18px;color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.19);text-decoration:none;}nav.top a:hover{background-position:0 -300px;}
 nav.top a.active,nav.top a.active:hover{background-position:0 -100px;}
 nav.top a.first{margin-left:5px;border-top-left-radius:5px;-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;}nav.top a.first span{float:left;background:transparent url("../images/menu_stripe.png");height:50px;display:block;width:5px;margin-top:-15px;background-position:0 -250px;background-repeat:no-repeat;}
