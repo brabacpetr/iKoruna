@@ -75,7 +75,8 @@ a {
   color: #000000;
   text-decoration: underline;
 }
-a:hover, a.active {
+a:hover,
+a.active {
   color: #0b5a9b;
 }
 a:visited {
@@ -426,12 +427,26 @@ header.main .profile-block {
 header.main .profile-block .left {
   margin: 0 10px 0 0;
 }
+header.main .login-bg {
+  position: absolute;
+  top: 27px;
+  right: 0px;
+  background: transparent url(../images/already_a_user.png) 0 0 no-repeat;
+  width: 261px;
+  height: 69px;
+}
 header.main .login {
   position: absolute;
   z-index: 1002;
+  padding: 10px 5px 10px 5px;
+  width: 106px;
+  height: 25px;
   right: 10px;
-  top: 35px;
-  padding: 10px 5px;
+  top: 15px;
+}
+header.main .login a.button {
+  position: relative;
+  right: 0;
 }
 header.main .login.active {
   background-color: #ffffff;
@@ -470,7 +485,8 @@ header.main .right .login-form label {
   font-weight: normal;
   line-height: 15px;
 }
-header.main .right .login-form input[type=text], header.main .right .login-form input[type=password] {
+header.main .right .login-form input[type=text],
+header.main .right .login-form input[type=password] {
   width: 83%;
   padding: 8px 15px;
   height: 15px;
@@ -542,7 +558,8 @@ nav.top a {
 nav.top a:hover {
   background-position: 0 -300px;
 }
-nav.top a.active, nav.top a.active:hover {
+nav.top a.active,
+nav.top a.active:hover {
   background-position: 0 -100px;
 }
 nav.top a.first {
@@ -803,14 +820,20 @@ nav.top a.last.active span {
   width: 30px;
   padding: 0px;
 }
-.button.submit.blue, .button.submit.green:hover, .button.submit.green.active {
+.button.submit.blue,
+.button.submit.green:hover,
+.button.submit.green.active {
   height: 31px;
 }
-.button.submit.blue .left, .button.submit.green:hover .left, .button.submit.green.active .left {
+.button.submit.blue .left,
+.button.submit.green:hover .left,
+.button.submit.green.active .left {
   background-position: 0 -582px;
   height: 31px;
 }
-.button.submit.blue .text, .button.submit.green:hover .text, .button.submit.green.active .text {
+.button.submit.blue .text,
+.button.submit.green:hover .text,
+.button.submit.green.active .text {
   background-position: 0 -613px;
   font-size: 15px;
   font-weight: bold;
@@ -818,7 +841,9 @@ nav.top a.last.active span {
   height: 31px;
   padding: 0 10px;
 }
-.button.submit.blue .right, .button.submit.green:hover .right, .button.submit.green.active .right {
+.button.submit.blue .right,
+.button.submit.green:hover .right,
+.button.submit.green.active .right {
   background: transparent url("../images/icons_sprite.png") 0 -213px no-repeat;
   width: 30px;
   height: 31px;
@@ -1024,7 +1049,8 @@ table.operations td a.buy-or-recharge:hover span {
   display: block;
   line-height: 30px;
 }
-.light-gray-box .content .block form input[type=text], .light-gray-box .content .block form input[type=password] {
+.light-gray-box .content .block form input[type=text],
+.light-gray-box .content .block form input[type=password] {
   width: 130px;
   border: 1px solid #999999;
   background-color: #f7f7f7;
@@ -1064,11 +1090,13 @@ table.operations td a.buy-or-recharge:hover span {
 table.partners {
   width: 100%;
 }
-table.partners td, table.partners th {
+table.partners td,
+table.partners th {
   text-align: left;
   border: 0px;
 }
-table.partners td a, table.partners th a {
+table.partners td a,
+table.partners th a {
   font-weight: normal;
 }
 /* 4.5 Vertical menu */
@@ -1356,7 +1384,8 @@ table.partners td a, table.partners th a {
 .content-white.registration label.error {
   color: #cd1324;
 }
-.content-white.registration input[type=text], .content-white.registration input[type=password] {
+.content-white.registration input[type=text],
+.content-white.registration input[type=password] {
   width: 213px;
   padding: 8px 15px;
   border: 1px solid #999999;
@@ -1463,7 +1492,8 @@ table.partners td a, table.partners th a {
   float: left;
   margin: 0 10px 0 0;
 }
-.content-white.payment-history .filters input[type=text], .content-white.payment-history .filters input[type=password] {
+.content-white.payment-history .filters input[type=text],
+.content-white.payment-history .filters input[type=password] {
   float: left;
   width: 85px;
   padding: 4px 30px 4px 15px;

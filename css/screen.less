@@ -392,12 +392,28 @@ header.main {
         }
     }
 
+    .login-bg {
+        position: absolute;
+        top: 27px;
+        right: 0px;
+        background: transparent url(../images/already_a_user.png) 0 0 no-repeat;
+        width: 261px;
+        height: 69px;
+    }
+
     .login {
         position: absolute;
         z-index: 1002;
+        padding: 10px 5px 10px 5px;
+        width: 106px;
+        height: 25px;
         right: 10px;
-        top: 35px;
-        padding: 10px 5px;
+        top: 15px;
+
+        a.button {
+            position: relative;
+            right: 0;
+        }
 
         &.active {
             background-color: @white;
